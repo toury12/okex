@@ -1,8 +1,8 @@
 package market
 
 import (
-	"github.com/toury/okex/models/market"
-	"github.com/toury/okex/responses"
+	"github.com/toury12/okex/models/market"
+	"github.com/toury12/okex/responses"
 )
 
 type (

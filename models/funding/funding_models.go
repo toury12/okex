@@ -1,6 +1,6 @@
 package funding
 
-import "github.com/toury/okex"
+import "github.com/toury12/okex"
 
 type (
 	Currency struct {

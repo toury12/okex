@@ -1,9 +1,9 @@
 package private
 
 import (
-	"github.com/toury/okex/events"
-	"github.com/toury/okex/models/account"
-	"github.com/toury/okex/models/trade"
+	"github.com/toury12/okex/events"
+	"github.com/toury12/okex/models/account"
+	"github.com/toury12/okex/models/trade"
 )
 
 type (

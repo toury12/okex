@@ -1,7 +1,7 @@
 package trade
 
 import (
-	"github.com/toury/okex"
+	"github.com/toury12/okex"
 )
 
 type (

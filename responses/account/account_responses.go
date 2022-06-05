@@ -1,8 +1,8 @@
 package account
 
 import (
-	models "github.com/toury/okex/models/account"
-	"github.com/toury/okex/responses"
+	models "github.com/toury12/okex/models/account"
+	"github.com/toury12/okex/responses"
 )
 
 type (

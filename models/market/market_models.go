@@ -3,7 +3,7 @@ package market
 import (
 	"fmt"
 	json "github.com/json-iterator/go"
-	"github.com/toury/okex"
+	"github.com/toury12/okex"
 	"strconv"
 	"time"
 )

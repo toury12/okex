@@ -1,6 +1,6 @@
 package account
 
-import "github.com/toury/okex"
+import "github.com/toury12/okex"
 
 type (
 	GetBalance struct {

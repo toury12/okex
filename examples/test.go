@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/toury/okex"
-	"github.com/toury/okex/api"
-	"github.com/toury/okex/requests/rest/market"
+	"github.com/toury12/okex"
+	"github.com/toury12/okex/api"
+	"github.com/toury12/okex/requests/rest/market"
 	"log"
 	"time"
 )

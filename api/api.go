@@ -2,9 +2,9 @@ package api
 
 import (
 	"context"
-	"github.com/toury/okex"
-	"github.com/toury/okex/api/rest"
-	"github.com/toury/okex/api/ws"
+	"github.com/toury12/okex"
+	"github.com/toury12/okex/api/rest"
+	"github.com/toury12/okex/api/ws"
 )
 
 // Client is the main api wrapper of okex

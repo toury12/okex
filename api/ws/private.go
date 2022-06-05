@@ -2,10 +2,10 @@ package ws
 
 import (
 	"encoding/json"
-	"github.com/toury/okex"
-	"github.com/toury/okex/events"
-	"github.com/toury/okex/events/private"
-	requests "github.com/toury/okex/requests/ws/private"
+	"github.com/toury12/okex"
+	"github.com/toury12/okex/events"
+	"github.com/toury12/okex/events/private"
+	requests "github.com/toury12/okex/requests/ws/private"
 )
 
 // Private

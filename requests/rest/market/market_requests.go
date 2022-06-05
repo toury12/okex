@@ -1,6 +1,6 @@
 package market
 
-import "github.com/toury/okex"
+import "github.com/toury12/okex"
 
 type (
 	GetTickers struct {

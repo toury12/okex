@@ -2,9 +2,9 @@ package rest
 
 import (
 	"encoding/json"
-	"github.com/toury/okex"
-	requests "github.com/toury/okex/requests/rest/trade"
-	responses "github.com/toury/okex/responses/trade"
+	"github.com/toury12/okex"
+	requests "github.com/toury12/okex/requests/rest/trade"
+	responses "github.com/toury12/okex/responses/trade"
 	"net/http"
 )
 

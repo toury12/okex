@@ -1,8 +1,8 @@
 package funding
 
 import (
-	models "github.com/toury/okex/models/funding"
-	"github.com/toury/okex/responses"
+	models "github.com/toury12/okex/models/funding"
+	"github.com/toury12/okex/responses"
 )
 
 type (

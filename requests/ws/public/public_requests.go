@@ -1,6 +1,6 @@
 package public
 
-import "github.com/toury/okex"
+import "github.com/toury12/okex"
 
 type (
 	Instruments struct {

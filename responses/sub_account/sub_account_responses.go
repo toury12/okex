@@ -1,9 +1,9 @@
 package sub_account
 
 import (
-	"github.com/toury/okex/models/account"
-	models "github.com/toury/okex/models/subaccount"
-	"github.com/toury/okex/responses"
+	"github.com/toury12/okex/models/account"
+	models "github.com/toury12/okex/models/subaccount"
+	"github.com/toury12/okex/responses"
 )
 
 type (

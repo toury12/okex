@@ -1,8 +1,8 @@
 package public_data
 
 import (
-	"github.com/toury/okex/models/publicdata"
-	"github.com/toury/okex/responses"
+	"github.com/toury12/okex/models/publicdata"
+	"github.com/toury12/okex/responses"
 )
 
 type (

@@ -1,4 +1,4 @@
-module github.com/toury/okex
+module github.com/toury12/okex
 
 go 1.17
 

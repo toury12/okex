@@ -1,8 +1,8 @@
 package trade
 
 import (
-	"github.com/toury/okex/models/trade"
-	"github.com/toury/okex/responses"
+	"github.com/toury12/okex/models/trade"
+	"github.com/toury12/okex/responses"
 )
 
 type (

@@ -299,6 +299,9 @@ const (
 	CandleStick1m  = CandleStickWsBarSize("candle1m")
 )
 
+func (t JSONTime) MarshalJSON() ([]byte, error) {
+	return []byte(time.Time(t).Format("2006-01-02 15:04:05")), nil
+}
 func (t JSONTime) String() string { return time.Time(t).String() }
 
 func (t *JSONTime) UnmarshalJSON(s []byte) (err error) {

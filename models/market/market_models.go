@@ -1,9 +1,9 @@
 package market
 
 import (
-	"encoding/json"
 	"fmt"
-	"github.com/amir-the-h/okex"
+	json "github.com/json-iterator/go"
+	"github.com/toury/okex"
 	"strconv"
 	"time"
 )

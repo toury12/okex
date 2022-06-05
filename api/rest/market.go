@@ -2,9 +2,9 @@ package rest
 
 import (
 	"encoding/json"
-	"github.com/amir-the-h/okex"
-	requests "github.com/amir-the-h/okex/requests/rest/market"
-	responses "github.com/amir-the-h/okex/responses/market"
+	"github.com/toury/okex"
+	requests "github.com/toury/okex/requests/rest/market"
+	responses "github.com/toury/okex/responses/market"
 	"net/http"
 )
 
@@ -41,7 +41,7 @@ func (c *Market) GetTickers(req requests.GetTickers) (response responses.Ticker,
 // Retrieve the latest price snapshot, best bid/ask price, and trading volume in the last 24 hours.
 //
 // https://www.okex.com/docs-v5/en/#rest-api-market-data-get-ticker
-func (c *Market) GetTicker(req requests.GetTickers) (response responses.Ticker, err error) {
+func (c *Market) GetTicker(req requests.GetTicker) (response responses.Ticker, err error) {
 	p := "/api/v5/market/ticker"
 	m := okex.S2M(req)
 	res, err := c.client.Do(http.MethodGet, p, false, m)

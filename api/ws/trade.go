@@ -1,8 +1,8 @@
 package ws
 
 import (
-	"github.com/amir-the-h/okex"
-	requests "github.com/amir-the-h/okex/requests/rest/trade"
+	"github.com/toury/okex"
+	requests "github.com/toury/okex/requests/rest/trade"
 )
 
 // Trade

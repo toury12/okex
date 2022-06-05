@@ -5,11 +5,12 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/base64"
-	"encoding/json"
 	"fmt"
-	"github.com/amir-the-h/okex"
-	requests "github.com/amir-the-h/okex/requests/rest/public"
-	responses "github.com/amir-the-h/okex/responses/public_data"
+	json "github.com/json-iterator/go"
+	"github.com/toury/okex"
+	requests "github.com/toury/okex/requests/rest/public"
+	responses "github.com/toury/okex/responses/public_data"
+	"log"
 	"net/http"
 	"strings"
 	"time"
@@ -78,11 +79,10 @@ func (c *ClientRest) Do(method, path string, private bool, params ...map[string]
 			}
 		}
 	} else {
-		j, err = json.Marshal(params[0])
+		body, err = json.MarshalToString(params[0])
 		if err != nil {
 			return nil, err
 		}
-		body = string(j)
 		if body == "{}" {
 			body = ""
 		}
@@ -105,6 +105,7 @@ func (c *ClientRest) Do(method, path string, private bool, params ...map[string]
 	if c.destination == okex.DemoServer {
 		r.Header.Add("x-simulated-trading", "1")
 	}
+	log.Printf("req okex [method:%s] %s %s", method, path, body)
 	return c.client.Do(r)
 }
 

@@ -3,10 +3,10 @@ package ws
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/amir-the-h/okex"
-	"github.com/amir-the-h/okex/events"
-	"github.com/amir-the-h/okex/events/public"
-	requests "github.com/amir-the-h/okex/requests/ws/public"
+	"github.com/toury/okex"
+	"github.com/toury/okex/events"
+	"github.com/toury/okex/events/public"
+	requests "github.com/toury/okex/requests/ws/public"
 	"strings"
 )
 
